@@ -1,4 +1,4 @@
-# Template with Tailwind, Storybook and Jest
+# Template with Tailwind, Storybook and Vitest
 
 ## 📋 Table of Contents
 
