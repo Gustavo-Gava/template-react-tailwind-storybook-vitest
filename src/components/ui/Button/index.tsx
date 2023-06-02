@@ -29,7 +29,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 	fullWidth?: boolean;
 }
 
-export const Button = ({ children, size, intent, fullWidth, className, ...rest }: ButtonProps) => {
+export const Button = ({ children, size, intent, fullWidth, ...rest }: ButtonProps) => {
 	return (
 		<button className={buttonStyles({ intent, fullWidth, size })} {...rest}>
 			{children}
